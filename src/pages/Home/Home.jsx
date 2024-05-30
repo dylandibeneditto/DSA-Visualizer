@@ -7,20 +7,8 @@ export default function Home() {
     <div className="home-padding">
       <div className="home">
         <div className="home-container">
-          <Link path="/depth-first-search">
+          <Link to="/depth-first-search">
             <HomeItem title="Depth First Search" category="trees"></HomeItem>
-          </Link>
-          <Link path="/depth-first-search">
-            <HomeItem title="Depth First Search" category="graphs"></HomeItem>
-          </Link>
-          <Link path="/depth-first-search">
-            <HomeItem
-              title="Depth First Search"
-              category="dynamic programming"
-            ></HomeItem>
-          </Link>
-          <Link path="/depth-first-search">
-            <HomeItem title="Depth First Search" category="arrays"></HomeItem>
           </Link>
         </div>
       </div>
